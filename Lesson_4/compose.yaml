@@ -1,0 +1,10 @@
+services:
+  postgres:
+    container_name: seminar
+    image: 'postgres:16.0'
+    environment:
+      - 'POSTGRES_DB=tickets'
+      - 'POSTGRES_PASSWORD=seminar4'
+      - 'POSTGRES_USER=sumkin'
+    ports:
+      - '5444:5432'
