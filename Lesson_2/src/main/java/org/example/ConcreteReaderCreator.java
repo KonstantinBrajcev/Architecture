@@ -13,8 +13,8 @@ public class ConcreteReaderCreator extends  BaseLogReaderCreator{
         return switch (logType) {
             case Text -> new TextFileReader();
             case Poem -> new PoemReader();
-            case Database -> new DatabseReader();
-            case System -> new OpeerationSystemLogEventsReader();
+            case Database -> new DatabaseReader();
+            case System -> new OperationSystemLogEventsReader();
         };
     }
 }
