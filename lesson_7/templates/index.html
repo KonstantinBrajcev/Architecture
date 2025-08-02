@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block title %}Главная страница{% endblock %}
+
+{% block content %}
+<div class="jumbotron bg-light p-5 rounded-lg">
+    <h1 class="display-4">Добро пожаловать в TechShop!</h1>
+    <p class="lead">Лучшие товары по доступным ценам</p>
+    <hr class="my-4">
+    <p>Ознакомьтесь с нашим ассортиментом в каталоге товаров.</p>
+    <a class="btn btn-primary btn-lg" href="/products" role="button">Перейти к товарам</a>
+</div>
+
+<div class="row mt-5">
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Электроника</h5>
+                <p class="card-text">Ноутбуки, смартфоны и другая техника</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Аксессуары</h5>
+                <p class="card-text">Наушники, клавиатуры и другие аксессуары</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Скидки</h5>
+                <p class="card-text">Специальные предложения и акции</p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
