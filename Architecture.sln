@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyForstWebApplication", "Lesson_9\MyForstWebApplication.csproj", "{28DB0770-4192-3067-8731-D33D3794DC39}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28DB0770-4192-3067-8731-D33D3794DC39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28DB0770-4192-3067-8731-D33D3794DC39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28DB0770-4192-3067-8731-D33D3794DC39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28DB0770-4192-3067-8731-D33D3794DC39}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D1AEF21D-BD08-4F21-9EF9-E5861285F6BE}
+	EndGlobalSection
+EndGlobal
