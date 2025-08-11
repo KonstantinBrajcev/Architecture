@@ -15,7 +15,7 @@ public class Program {
         PremiumCarWash carWash = new PremiumCarWash();
         FullServiceStation fullService = new FullServiceStation();
         // 3. Демонстрация работы с каждым автомобилем
-        testCar(sportCar, refuelingStation, carWash, fullService);
+        testCar(sportCar, refuelingStation, caash, fullService);
         testCar(harvester, refuelingStation, carWash, fullService);
         testCar(threeWheeler, refuelingStation, carWash, fullService);
     }
