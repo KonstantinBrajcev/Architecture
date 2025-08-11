@@ -4,6 +4,10 @@ VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClinicService", "ClinicService\ClinicService.csproj", "{256B16FC-6886-42A8-9FCE-61B53CF631A0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicDesktop", "ClinicDesktop\ClinicDesktop.csproj", "{82C8FE77-740C-4F8B-8883-F1F69C62083D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClinicDesktop.Data", "ClinicDesktop.Data\ClinicDesktop.Data.csproj", "{857EE2C1-F858-4C88-A647-7A761BA767BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
